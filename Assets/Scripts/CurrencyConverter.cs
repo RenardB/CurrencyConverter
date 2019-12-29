@@ -130,11 +130,11 @@ public class CurrencyConverter : MonoBehaviour
                 _exchangeRates[_referenceDate][_outputCurrency] :
                 _outputCurrency == "EUR" ? 1 : 0;
 
-            if (inputExchangeRate > 0 & outputExchangeRate > 0 && float.TryParse(_inputValue.text, NumberStyles.Any, CultureInfo.InvariantCulture, out float inputValue))
+            if (inputExchangeRate > 0 & outputExchangeRate > 0 && double.TryParse(_inputValue.text, NumberStyles.Any, CultureInfo.InvariantCulture, out double inputValue))
             {
                 //Compute conversion and display it
                 _outputValueHolder.SetActive(true);
-                _outputValue.text = (inputValue * outputExchangeRate / inputExchangeRate).ToString();
+                _outputValue.text = (inputValue * outputExchangeRate / inputExchangeRate).ToString("#,0.##");
                 return;
             }
         }
