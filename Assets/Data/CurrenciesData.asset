@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e382cfd66da3e9418ec697f0c528a4a, type: 3}
+  m_Name: CurrenciesData
+  m_EditorClassIdentifier: Assembly-CSharp::CurrenciesData
+  _currencies:
+  - Symbol: EUR
+    Name: Euro
+  - Symbol: USD
+    Name: US dollar
+  - Symbol: JPY
+    Name: Japanese yen
+  - Symbol: BGN
+    Name: Bulgarian lev
+  - Symbol: CZK
+    Name: Czech koruna
+  - Symbol: DKK
+    Name: Danish krone
+  - Symbol: GBP
+    Name: Pound sterling
+  - Symbol: HUF
+    Name: Hungarian forint
+  - Symbol: PLN
+    Name: Polish zloty
+  - Symbol: RON
+    Name: Romanian leu
+  - Symbol: SEK
+    Name: Swedish krona
+  - Symbol: CHF
+    Name: Swiss franc
+  - Symbol: ISK
+    Name: Islandic krona
+  - Symbol: NOK
+    Name: Norwegian krone
+  - Symbol: HRK
+    Name: Croatian kuna
+  - Symbol: RUB
+    Name: Russian rouble
+  - Symbol: TRY
+    Name: Turkish lira
+  - Symbol: AUD
+    Name: Australian dollar
+  - Symbol: BRL
+    Name: Brazilian real
+  - Symbol: CAD
+    Name: Canadian dollar
+  - Symbol: CNY
+    Name: Chinese yuan renminbi
+  - Symbol: HKD
+    Name: Hong Kong dollar
+  - Symbol: IDR
+    Name: Indonesian rupiah
+  - Symbol: ILS
+    Name: Israeli shekel
+  - Symbol: INR
+    Name: Indian rupee
+  - Symbol: KRW
+    Name: South Korean won
+  - Symbol: MXN
+    Name: Mexican peso
+  - Symbol: MYR
+    Name: Malaysian ringgit
+  - Symbol: NZD
+    Name: New Zealand dollar
+  - Symbol: PHP
+    Name: Philippine peso
+  - Symbol: SGD
+    Name: Singapore dollar
+  - Symbol: THB
+    Name: Thai baht
+  - Symbol: ZAR
+    Name: South African rand
