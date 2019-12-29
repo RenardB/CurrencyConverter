@@ -165,7 +165,7 @@ public class CurrencyConverter : MonoBehaviour
         int newOutputDropdownValue = -1; //< new position of the current output currency in the new options' list
 
         //Recreate options' list only with currencies that exist both in _currenciesFullNames and the _referenceDate's exchange rate
-        var options = new List<string>() { "EUR" };
+        var options = new List<string>() { _currenciesFullNames.ContainsKey("EUR") ? _currenciesFullNames["EUR"] : "EUR (Euro)" };
         if (_exchangeRates.ContainsKey(_referenceDate))
             foreach (var exchangeRate in _exchangeRates[_referenceDate])
                 if (_currenciesFullNames.ContainsKey(exchangeRate.Key))
